@@ -140,7 +140,7 @@ public class InvoicePrinter {
 - If DB changes → only `InvoiceRepository`.
 - If printing format changes → only `InvoicePrinter`.
 
-[IMG]
+<img width="1536" height="682" alt="SRP" src="https://github.com/user-attachments/assets/dd04320b-6f2c-4a31-b410-eb29c86434f4" />
 
 Each class has **one clear responsibility** → one reason to change.
 
