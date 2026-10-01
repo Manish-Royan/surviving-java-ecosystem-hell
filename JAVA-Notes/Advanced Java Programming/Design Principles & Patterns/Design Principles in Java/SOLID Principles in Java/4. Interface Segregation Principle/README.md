@@ -9,6 +9,8 @@ The **Interface Segregation Principle (ISP)**, the "**I**" in SOLID, states:
 
 👉 Instead of creating one large, "fat" interface that attempts to cover all possible features, you should break it down into smaller, role-specific interfaces.
 
+---
+
 ## 🚨 Example of Violating ISP
 
 ```java
