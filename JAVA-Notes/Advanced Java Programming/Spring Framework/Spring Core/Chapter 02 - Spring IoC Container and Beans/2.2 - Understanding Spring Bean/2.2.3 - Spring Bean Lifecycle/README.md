@@ -9,8 +9,6 @@ Understanding it is critical for:
 - **Debugging initialization failures**,  
 - **Customizing behavior** with `BeanPostProcessor`, `BeanFactoryPostProcessor`, etc.
 
-##Got it, Manish 🌱 — let’s complete your README.md on the **Spring Bean Lifecycle**. You already have **Phase 1 (Loading Bean Definitions)** and **Phase 2 (Bean Instantiation)**. Let’s add the missing phases with clear technical flow and examples.
-
 ---
 
 # ⌛ Lifecycle of Bean
