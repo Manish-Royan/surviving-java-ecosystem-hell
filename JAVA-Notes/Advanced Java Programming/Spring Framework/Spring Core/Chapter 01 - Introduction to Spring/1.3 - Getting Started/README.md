@@ -1,4 +1,7 @@
 # 📦 Spring Container Overview
+
+<img width="1200" height="896" alt="Spring-Container" src="https://github.com/user-attachments/assets/a81d095a-14f6-4636-94be-eb376357ccc2" />
+
 ➡️ Before creating our first program, let's have a quick glimpse about **Spring Container**.
 
 ---
