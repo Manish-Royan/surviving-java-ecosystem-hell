@@ -169,7 +169,7 @@ DIP and OCP work in tandem to create maintainable systems:
 ```
 ┌─────────────────────────────────────────────────────────┐
 │                      DIP (Structure)                    │
-│ "Setup: High-level code depends on an interface."      │
+│ "Setup: High-level code depends on an interface."       │
 └────────────────────────────┬────────────────────────────┘
                              │
                              ▼ (Enables)
