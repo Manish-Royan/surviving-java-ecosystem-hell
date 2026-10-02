@@ -149,7 +149,7 @@ So Spring needs a way to inspect and work with classes dynamically.
 Java Reflection provides that capability.
 
 ---
-# 5. What Can Reflection Do?
+# 5. What Can [Reflection](https://github.com/Manish-Royan/surviving-java-ecosystem-hell/tree/main/JAVA-Notes/Advanced%20Java%20Programming/Spring%20Framework/Spring%20Core/Chapter%2002%20-%20Spring%20IoC%20Container%20and%20Beans/2.2%20-%20Understanding%20Spring%20Bean/2.2.3%20-%20Spring%20Bean%20Lifecycle/Phase%202%20-%20Bean%20Instantiation/Spring%20relies%20on%20Java%20Reflection) Do?
 
 Reflection allows Java code to inspect classes at runtime.
 
