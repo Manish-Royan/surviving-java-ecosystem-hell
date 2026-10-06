@@ -16,11 +16,11 @@ Because Class `A` holds a reference to Class `B` to execute its work, Class `A` 
 
 Therefore, **any "Has-A" relationship creates a functional Dependency.**
 
-[IMG]
+<img width="1200" height="896" alt="HAS-A-Relationship" src="https://github.com/user-attachments/assets/1f7fc024-4a42-4aab-9ab2-4237b89f001f" />
 
 ---
 
-## 2. Mapping "Has-A" to Code (From Our POJO Demo)
+## 2. Mapping "Has-A" to Code (From Our [POJO Demo](https://github.com/Manish-Royan/surviving-java-ecosystem-hell/tree/main/JAVA-Notes/Advanced%20Java%20Programming/Spring%20Framework/Spring%20Core/Chapter%2002%20-%20Spring%20IoC%20Container%20and%20Beans/2.3%20-%20Dependency%20Injection%20%26%20IoC%20in%20Spring/2.3.1%20-%20%20Understand%20Dependency%20Injection/1%20-%20What%20is%20Dependency%20in%20general#%E2%80%8D-simple-pojo-demonstration))
 
 Look at how the **"Has-A"** relationship translates directly into Java code:
 
@@ -61,7 +61,7 @@ To avoid confusion during Spring architecture design, distinguish between these 
 
 ---
 
-## Key Deep-Insights & Gotchas 💡
+## 👁️‍🗨️ Key Deep-Insights & Gotchas
 
 * 💡 **Relationship vs. Pattern:** **"Has-A"** describes the *structural relationship* between two classes. **"Dependency Injection"** describes the *pattern used to supply* that required object from the outside.
 * ⚠️ **The `NullPointerException` Trap:** If Class `A` **has a** Class `B` field, but you forget to inject or initialize `B`, calling `B`'s methods at runtime results in an immediate `NullPointerException`.
