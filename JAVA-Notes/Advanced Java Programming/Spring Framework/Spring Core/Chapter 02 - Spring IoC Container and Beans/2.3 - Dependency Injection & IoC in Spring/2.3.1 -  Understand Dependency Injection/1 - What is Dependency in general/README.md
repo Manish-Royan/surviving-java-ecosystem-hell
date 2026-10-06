@@ -24,8 +24,7 @@ Therefore:
 
 ### The Structural Relationship
 
-[IMG]
-
+<img width="1200" height="896" alt="Gemini_Generated_Image_3xahip3xahip3xah" src="https://github.com/user-attachments/assets/8d897ff0-a45e-4b9d-9278-b2e8a1ea7cf8" />
 
 ## 🧑‍💻 Simple POJO Demonstration
 
