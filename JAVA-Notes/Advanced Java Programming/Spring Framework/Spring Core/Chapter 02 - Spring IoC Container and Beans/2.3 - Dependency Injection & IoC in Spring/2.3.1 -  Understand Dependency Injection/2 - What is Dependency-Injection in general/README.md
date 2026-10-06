@@ -26,7 +26,7 @@ By separating creation from usage, your Java classes become modular, reusable, a
 
 ---
 
-## The Analogy: The Admissions Officer & The Filing Cabinet
+## 💭 The Analogy: The Admissions Officer & The Filing Cabinet
 
 In a software system, software components mimic real-world roles:
 
@@ -44,7 +44,7 @@ In a software system, software components mimic real-world roles:
 * **`StudentService` (The Admissions Officer):** Represents **Business Logic**. It decides *if* a student can register, checks application completeness, and orchestrates the registration workflow.
 * **`StudentRepository` (The Filing Cabinet):** Represents **Data Access**. It handles the technical details of storing and retrieving student records (such as saving to a database).
 
-[IMG]
+<img width="1200" height="896" alt="POJO-DI" src="https://github.com/user-attachments/assets/e88b6e70-ca9f-407e-a6c2-d88eb7d674ba" />
 
 ### The DI Connection in this Analogy
 
