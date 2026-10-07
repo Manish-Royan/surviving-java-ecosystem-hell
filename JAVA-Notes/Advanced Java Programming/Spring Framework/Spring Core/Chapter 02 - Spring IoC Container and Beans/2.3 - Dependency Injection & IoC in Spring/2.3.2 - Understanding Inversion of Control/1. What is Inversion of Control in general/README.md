@@ -7,9 +7,6 @@ To understand **Inversion of Control (IoC)**, break the phrase down into two pla
 
 > 📝 **Inversion of Control is a general software design principle where the control of object creation, dependency management, and execution flow is taken away from the class and handed over to an external entity (*Spring Container*).**
 
-* In traditional Java, you write new everywhere and decide how objects are connected.
-* With IoC, the container controls the flow: it creates objects, injects dependencies, and manages lifecycles.
-
 ---
 
 ## 🏢 Real-World Scenario: The E-Commerce Analogy
@@ -40,6 +37,44 @@ The `OrderService` doesn't need to know how to talk to a bank or handle email se
 +----------------------------------+ +----------------------------------+
 
 ```
+
+### In traditional Java, you write new everywhere and decide how objects are connected.
+1️⃣ If OrderService creates its own PaymentService:
+```java
+OrderService
+   creates → PaymentService
+```
+Who is in control here?
+👉 OrderService is controlling:
+- When PaymentService is created
+- Which implementation to use
+- How it is configured
+This means:
+The dependent class controls its dependency.
+
+This is called Normal Control Flow.
+And this leads to:
+- Tight coupling
+- Hard testing
+- Hard replacement
+- Rigid design
+
+
+### With IoC, the container controls the flow: it creates objects, injects dependencies, and manages lifecycles.
+2️⃣ The control of object creation and wiring is reversed.
+
+Instead of:
+```java
+OrderService creates PaymentService
+```
+
+Now:
+```java
+Spring Container creates PaymentService
+Spring Container gives it to OrderService
+```
+
+> Control is inverted. OrderService no longer creates its dependency.
 
 ---
 ## Traditional Control vs. Inverted Control
